@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">view-binding-choice</string>
+
+    <string name="main_neither">I don\'t like cats or dogs</string>
+    <string name="main_cats">I like cats</string>
+    <string name="main_dogs">I like dogs</string>
+    <string name="main_both">I like both cats and dogs</string>
+</resources>

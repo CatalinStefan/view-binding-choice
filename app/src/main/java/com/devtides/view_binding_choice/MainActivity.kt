@@ -19,6 +19,9 @@ class MainActivity : AppCompatActivity(), PassDataInterface {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
+
+        binding.landscapeMessage?.text = "You are now in landscape mode"
+
         setContentView(binding.root)
     }
 
